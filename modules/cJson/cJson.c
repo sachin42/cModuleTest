@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX_JSON_SIZE 256
+#define MAX_JSON_SIZE 512
 
 static char json_buffer[MAX_JSON_SIZE];
 
