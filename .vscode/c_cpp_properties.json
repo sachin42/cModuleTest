@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "WSL",
+            "includePath": [
+                "${workspaceFolder}/micropython/**", 
+                "${workspaceFolder}/micropython/*/**", 
+                "${workspaceFolder}/modules/**",
+                "${workspaceFolder}/modules/*/**"
+            ],
+            "defines": [
+                "MICROPY_PY_BUILTINS",
+                "MICROPY_PY_UTIME",
+                "MICROPY_PY_IO"
+            ],
+            "compilerPath": "/usr/bin/clang", 
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/micropython",
+                    "${workspaceFolder}/modules"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
